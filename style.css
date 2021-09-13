@@ -1,0 +1,100 @@
+h1 {
+    font-size: x-large;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 1em 0 1em 0;
+    font-size: 22pt;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.wrapper {
+    padding: 0 1em 0 1em;
+}
+
+/* Tablets */
+@media only screen and (min-width: 481px) {
+
+    .wrapper {
+        width: 30em;
+        margin: auto;
+    }
+
+}
+
+/* laptops */
+@media only screen and (min-width: 769px) {
+    .wrapper {
+        width: 30em;
+        margin: auto;
+    }
+}
+
+/* Desktop */
+@media only screen and (min-width: 1025px) {
+
+}
+
+/* XL Scherm */
+@media only screen and (min-width: 1201px) {
+  
+}
+
+.rondje {
+    width: 20px;
+    height: 20px;
+    border: 1.5px solid black;
+    border-radius: 100%;
+    display: inline-block;
+    background-color: transparent;
+    padding: 0;
+}
+
+.bevestiging {
+    width: 14px;
+    height: 14px;
+    border-radius: 100%;
+    margin: auto;
+    background-color: rgb(56, 163, 56);
+    display: none;
+}
+
+.ToDoLijst {
+    padding: 1em 0 1em 0;
+}
+
+.ToDoLijst > * {
+    padding-bottom: 1em;
+}
+
+.textToDo {
+    display: inline-block;
+    padding-left: 8px;
+}
+
+.invoerveld {
+    display: flex;
+    background-color: rgb(231, 231, 231);
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0;
+    justify-content: space-between;
+}
+
+.invoerveldTypeBar {
+    border: none;
+    background: none;
+    width: 100%;
+    margin: 0 10px 0 10px;
+}
+
+.invoerveldKnop {
+    width: 20px;
+    height: 20px;
+    border: none;
+    background: none;
+    margin: 0;
+    padding: 0;
+}
