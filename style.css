@@ -1,13 +1,26 @@
 h1 {
-    font-size: x-large;
     font-weight: bolder;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Inter, Geneva, Tahoma, sans-serif;
     padding: 1em 0 1em 0;
     font-size: 22pt;
 }
 
-p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+h2 {
+    font-weight: 600;
+    font-family: Inter, Geneva, Tahoma, sans-serif;
+    padding: 1em 0 1em 0;
+    font-size: 15pt;
+    margin-top: 2em;
+}
+
+p, span, button {
+    font-family: Inter, Geneva, Tahoma, sans-serif;
+}
+
+input {
+    font-family: Inter, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 10pt;
 }
 
 .wrapper {
@@ -62,7 +75,7 @@ p {
 }
 
 .ToDoLijst {
-    padding: 1em 0 1em 0;
+    padding: 0 0 1em 0;
 }
 
 .ToDoLijst > * {
@@ -72,6 +85,29 @@ p {
 .textToDo {
     display: inline-block;
     padding-left: 8px;
+}
+
+.label {
+    width: 200px;
+    height: 20px;
+    background-color: burlywood;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.SuggestieKnop {
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+}
+
+.SuggestieItem {
+    margin-top: 1em;
+}
+
+.SuggestieItem p {
+    display: inline-block;
 }
 
 .invoerveld {
@@ -91,10 +127,19 @@ p {
 }
 
 .invoerveldKnop {
-    width: 20px;
-    height: 20px;
+    width: 90px;
+    height: 30px;
     border: none;
     background: none;
     margin: 0;
     padding: 0;
+    background-color: rgb(79, 70, 229);
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 10pt;
+}
+
+.invoerveldKnop:hover {
+    background-color: rgb(67, 56, 202);
 }
